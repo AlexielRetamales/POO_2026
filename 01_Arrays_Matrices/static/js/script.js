@@ -7,3 +7,11 @@ Usa .push() para agregar "borrar" al final.
 Usa .pop() para eliminar "borrar".
 Muestra con alert() la frase unida por espacios */
 
+function construirFrase(){
+    let palabras = ["programar", "es"];
+    palabras.push("increíble");
+    palabras.push("borrar");
+    let eliminada = palabras.pop();
+    alert(`El ${palabras.join(" ")}`);
+    alert(`La palabra eliminada fue ${eliminada}`);
+}
